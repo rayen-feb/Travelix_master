@@ -1,0 +1,136 @@
+A
+#!/bin/bash
+
+nom=""
+prenom=""
+age=0
+
+echo "Entrez votre nom : "
+read nom
+
+echo "Entrez votre prénom : "
+read prenom
+
+echo "Entrez votre âge : "
+read age
+
+echo "Nom : $nom"
+echo "Prénom : $prenom"
+echo "Âge : $age"
+
+B
+1
+#!/bin/bash
+
+etudiants=(ahmed ali mariem soulaima salim)
+
+echo "Premier nom : ${etudiants[0]}"
+echo "Deuxième nom : ${etudiants[1]}"
+
+nb_etudiants=${#etudiants[@]}
+
+echo "Nombre d'étudiants : $nb_etudiants"
+2-
+etudiants+=("tarek" "samer")
+
+nb_etudiants=${#etudiants[@]}
+
+echo "Nouveau nombre d'étudiants : $nb_etudiants"
+
+3-
+delegue="mohamed"
+
+etudiants=("$delegue" "${etudiants[@]}")
+
+echo "Premier nom : ${etudiants[0]}"
+4-
+for etudiant in "${etudiants[@]}"; do
+  echo "$etudiant"
+done
+
+C
+#!/bin/bash
+
+
+nombre1=$1
+nombre2=$2
+
+somme=$((nombre1 + nombre2))
+
+produit=$((nombre1 * nombre2))
+
+difference=$((nombre1 - nombre2))
+
+quotient=$((nombre1 / nombre2))
+
+echo "Somme : $somme"
+echo "Produit : $produit"
+echo "Différence : $difference"
+echo "Quotient : $quotient"
+
+D
+
+#!/bin/bash
+
+chaine="helloWorld"
+
+longueur_sous_chaine1=${#chaine%%orld*}
+
+echo "Longueur de la première sous-chaine : $longueur_sous_chaine1"
+Utilisez ce code avec précaution. En savoir plus
+3
+
+
+
+chaine="helloWorld"
+
+echo "${chaine##*o}"
+Utilisez ce code avec précaution. En savoir plus
+4
+
+
+chaine="helloWorld"
+
+
+position_numerique=${#chaine%%orld*}+1
+
+
+echo "Position de la deuxième sous-chaine : $position_numerique"
+Utilisez ce code avec précaution. En savoir plus
+5
+
+
+chaine="helloWorld"
+
+
+last_extraction=${chaine:(-5)}
+
+echo "5 derniers caractères : $last_extraction"
+Utilisez ce code avec précaution. En savoir plus
+6
+
+
+chaine="helloworld"
+
+chaine=${chaine#*h}
+
+echo "Chaîne après suppression : $chaine"
+Utilisez ce code avec précaution. En savoir plus
+7
+
+
+chaine="helloworld"
+
+
+chaine=${chaine%%o*}
+
+echo "Chaîne après suppression : $chaine"
+Utilisez ce code avec précaution. En savoir plus
+8
+
+
+chaine="helloworld"
+
+chaine=${chaine/world/esprit}
+
+echo "Chaîne après remplacement : $chaine"

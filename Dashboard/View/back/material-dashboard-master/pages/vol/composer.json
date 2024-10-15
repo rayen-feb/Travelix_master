@@ -1,0 +1,10 @@
+{
+    
+    "name": "vendor/autoload.php",
+    "version": "1.0.0",
+    "description": "A sample package",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "endroid/qr-code": "^5.0"
+    }
+}

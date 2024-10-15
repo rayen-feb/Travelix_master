@@ -1,0 +1,18 @@
+  .error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+  }
+
+    .password-wrapper {
+        position: relative;
+    }
+
+    .toggle-password {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+     
