@@ -1,4 +1,4 @@
-# Travelix_master WEB ESPRIT PROJECT 2A 2024  web esprit projet web
+# projet web esprit 2A 
 # Travel Agency Web Application
 
 Welcome to the **Travel Agency Web Application**! This project is developed as part of my studies at **Esprit University**. It is designed to facilitate users in reserving flights, managing reservations, and accessing essential flight information. The application is built using a modern tech stack, including **JavaScript, HTML, CSS, TypeScript, and PHP**, and connects to an SQL database for robust data management.
