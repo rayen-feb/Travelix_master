@@ -1,5 +1,8 @@
 <?php
-include_once 'C:/xampp/htdocs/ali&yossra/ali&yossra/UserManagment/Dashboard/Controller/UserC.php';
+require 'Dashboard/Controller/UserC.php';
+include_once 'C:\xampp3\htdocs\Travelix_master\Travelix_master\Dashboard\Controller\UserC.php';
+
+
 session_start(); 
 $UserC=new UserC();
 $erreur="";
