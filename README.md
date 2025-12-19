@@ -85,3 +85,8 @@ git clone https://github.com/rayen-feb/Travelix_master
 4.Update credentials in the PHP config files if needed.
 
 5.Open the project via:
+```
+http://localhost/Travelix_master
+
+```
+ 
