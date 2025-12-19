@@ -43,19 +43,19 @@ Built with a full web stack including **HTML, CSS, JavaScript, TypeScript, PHP**
 Below are screenshots of the main interfaces from the application:
 
 ### 🏠 Home Page — Main Navigation
-<img src="screenshots/home.png" width="800" alt="Travelix Home Page">
+<img src="home.png" width="800" alt="Travelix Home Page">
 
 ### ✈️ Flight Search & Booking
-<img src="screenshots/search.png" width="800" alt="Flight Search and Booking">
+<img src="search.png" width="800" alt="Flight Search and Booking">
 
 ### 🌍 Offers / Destinations View
-<img src="screenshots/offers.png" width="800" alt="Offers / Destinations Page">
+<img src="offers.png" width="800" alt="Offers / Destinations Page">
 
 ### 👤 Login & Registration
-<img src="screenshots/login.png" width="800" alt="User Login Page">
+<img src="login.png" width="800" alt="User Login Page">
 
 ### 🛠️ Admin Dashboard
-<img src="screenshots/dashboard.png" width="800" alt="Admin Dashboard">
+<img src="dashboard.png" width="800" alt="Admin Dashboard">
 
 ---
 
