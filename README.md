@@ -76,3 +76,12 @@ Below are screenshots of the main interfaces from the application:
 1. Clone the repository:
 ```bash
 git clone https://github.com/rayen-feb/Travelix_master
+```
+
+2.Start a local server environment (XAMPP, WAMP, or MAMP).
+
+3.Import the SQL database file into your database.
+
+4.Update credentials in the PHP config files if needed.
+
+5.Open the project via:
