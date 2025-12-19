@@ -1,58 +1,78 @@
-# Travelix master 
-projet web esprit 2A  
-# Travel Agency Web Application
+# 🚀 Travelix — Travel Agency Web Application
 
-Welcome to the **Travel Agency Web Application**! This project is developed as part of my studies at **Esprit University**. It is designed to facilitate users in reserving flights, managing reservations, and accessing essential flight information. The application is built using a modern tech stack, including **JavaScript, HTML, CSS, TypeScript, and PHP**, and connects to an SQL database for robust data management.
+A fully functional travel agency web application developed as part of my studies at **ESPRIT University (2A)**.  
+Travelix enables users to browse flight options, make reservations, manage bookings, and generate travel information with ease.
 
-## Features
+---
 
-- **User-Friendly Interface**: Intuitive design for easy navigation and booking.
-- **Flight  Management**: 
-  - Reserve flights with ease.
-  - Add, modify, search, and delete reservations.
--  **reservation  Management**:
-  -Add , modify , search , sort and delete reservation , 
--  **user  Management**:
--    -Add , modify , search , sort and delete  user  , 
+## 🧠 Project Overview
 
+This web application simulates features you would expect from a real travel agency platform:
 
-- **Dashboard**: 
-  - A comprehensive view of all user reservations and flight details.
-- **Email Notifications**: 
-  - Automatically sends emails to clients in case of flight cancellations or changes.
-- **QR Code Generation**: 
-  - Users can generate QR codes containing flight information for easy access and check-in.
-- **Payment Integration**: 
-  - Supports payment through various interfaces like Flouci for seamless transactions.
+- ✈️ Flight search and reservation system  
+- 🗂️ User account and reservation management  
+- 📬 Email notifications for updates and cancellations  
+- 📱 QR Code generation for flight details  
+- 💳 Integrated payment interface support  
+- 📊 Simple admin dashboard for overviewing flights and users
 
-## Technologies Used
+Built with a full web stack including **HTML, CSS, JavaScript, TypeScript, PHP**, and connected to an **SQL database** for persistent information. :contentReference[oaicite:1]{index=1}
 
-- **Frontend**: 
-  - HTML, CSS, JavaScript, TypeScript
-- **Backend**: 
-  - PHP
-- **Database**: 
-  - SQL
-- **Additional Features**: 
-  - QR Code generation for flight information
-  - Email functionality for notifications
+---
 
-## Installation
+## 🛠 Technologies Used
 
-To set up the project locally, follow these steps:
+**Frontend**
+- HTML5, CSS3  
+- JavaScript & TypeScript
+
+**Backend**
+- PHP
+
+**Database**
+- SQL
+
+**Additional Features**
+- Email integration
+- QR code generation
+
+---
+
+## 📸 Interface Screenshots
+
+Below are screenshots of the main interfaces from the application:
+
+### 🏠 Home Page — Main Navigation
+<img src="screenshots/home.png" width="800" alt="Travelix Home Page">
+
+### ✈️ Flight Search & Booking
+<img src="screenshots/search.png" width="800" alt="Flight Search and Booking">
+
+### 🌍 Offers / Destinations View
+<img src="screenshots/offers.png" width="800" alt="Offers / Destinations Page">
+
+### 👤 Login & Registration
+<img src="screenshots/login.png" width="800" alt="User Login Page">
+
+### 🛠️ Admin Dashboard
+<img src="screenshots/dashboard.png" width="800" alt="Admin Dashboard">
+
+---
+
+## 🎯 Features Breakdown
+
+✔ Clean and intuitive UI  
+✔ Responsive web design  
+✔ Full CRUD operations (Create / Read / Update / Delete) for users and reservations  
+✔ Session-based authentication system  
+✔ Email notifications for reservation events  
+✔ QR code generator for easy check-in  
+✔ Payments interface supported
+
+---
+
+## 🧾 How to Run Locally
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/rayen-feb/Travelix_master
-   cd Travelix_master
-2. Install required dependencies:
-
-Ensure you have a server environment (like XAMPP or MAMP) running for PHP and SQL database.
-Set up your database by importing the provided SQL scripts in the database directory.
-Configure the application:
-
-3.Update your database connection settings in the PHP files as necessary.
-Start the server:
-
-4. Launch the application through your web server (http://localhost/Travelix_master).
-
+```bash
+git clone https://github.com/rayen-feb/Travelix_master
