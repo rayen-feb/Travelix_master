@@ -54,9 +54,6 @@ Below are screenshots of the main interfaces from the application:
 ### 👤 Login & Registration
 <img src="login.png" width="800" alt="User Login Page">
 
-### 🛠️ Admin Dashboard
-<img src="dashboard.png" width="800" alt="Admin Dashboard">
-
 ---
 
 ## 🎯 Features Breakdown
