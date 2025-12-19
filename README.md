@@ -49,7 +49,7 @@ Below are screenshots of the main interfaces from the application:
 <img src="search.png" width="800" alt="Flight Search and Booking">
 
 ### 🌍 Offers / Destinations View
-<img src="offers.png" width="800" alt="Offers / Destinations Page">
+<img src="offer.png" width="800" alt="Offers / Destinations Page">
 
 ### 👤 Login & Registration
 <img src="login.png" width="800" alt="User Login Page">
